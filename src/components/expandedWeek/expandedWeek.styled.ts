@@ -27,8 +27,8 @@ const TitleDiv = styled.div`
 const ColumnContainer = styled.div<{ type: string }>`
   display: flex;
   flex-direction: column;
-  padding: 10px;
   justify-content: start;
+  padding: 10px;
   align-items: center;
   width: 80%;
   border-radius: 10px;
@@ -48,7 +48,7 @@ const VerticalHR = styled.hr`
 const ContentColumn = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: start;
 `;
 

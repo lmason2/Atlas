@@ -21,6 +21,7 @@ const TitleDiv = styled.div`
   display: flex;
   justify-content: start;
   width: 20%;
+  min-width: 20%;
 `;
 
 const ColumnContainer = styled.div<{ type: string }>`
@@ -41,6 +42,14 @@ const VerticalHR = styled.hr`
   margin-top: auto;
   margin-bottom: auto;
   margin-right: 0px;
+  color: ${({ theme }) => theme.basic}};
 `;
 
-export { RowCard, TitleDiv, ColumnContainer, VerticalHR };
+const ContentColumn = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+`;
+
+export { RowCard, TitleDiv, ColumnContainer, VerticalHR, ContentColumn };

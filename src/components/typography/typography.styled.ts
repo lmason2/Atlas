@@ -5,6 +5,7 @@ const H1Typography = styled.p`
   color: ${({ theme }) => theme.text};
   decoration: none;
   margin: 0px;
+  height: fit-content;
   text-align: center;
 `;
 
@@ -13,6 +14,7 @@ const H2Typography = styled.p`
   color: ${({ theme }) => theme.text};
   decoration: none;
   margin: 0px;
+  height: fit-content;
   text-align: center;
 `;
 
@@ -21,6 +23,7 @@ const H3Typography = styled.p`
   color: ${({ theme }) => theme.text};
   decoration: none;
   margin: 0px;
+  height: fit-content;
   text-align: center;
 `;
 
@@ -29,6 +32,7 @@ const H4Typography = styled.p`
   color: ${({ theme }) => theme.text};
   decoration: none;
   margin: 0px;
+  height: fit-content;
   text-align: center;
 `;
 
@@ -37,6 +41,7 @@ const H5Typography = styled.p`
   color: ${({ theme }) => theme.text};
   decoration: none;
   margin: 0px;
+  height: fit-content;
   text-align: center;
 `;
 
@@ -45,6 +50,7 @@ const FooterTypography = styled.p`
   color: ${({ theme }) => theme.text};
   decoration: none;
   margin: 0px;
+  height: fit-content;
   text-align: center;
 `;
 
@@ -53,6 +59,7 @@ const BasicTypography = styled.p`
   color: ${({ theme }) => theme.text};
   decoration: none;
   margin: 0px;
+  height: fit-content;
   text-align: center;
 `;
 
@@ -62,6 +69,7 @@ const InputTypography = styled.label`
   decoration: none;
   margin: 0px;
   text-align: start;
+  text-align: center;
 `;
 
 export {

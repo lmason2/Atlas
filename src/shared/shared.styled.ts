@@ -1,20 +1,10 @@
 import styled from "styled-components";
 
 const StyledHR = styled.hr<{ expanded: boolean }>`
-  height: ${(props) => (props.expanded ? `100%` : `40px`)};
+  height: ${(props) => (props.expanded ? `100%` : ``)};
   transition: all 0.25s linear;
+  border: 1px solid ${({ theme }) => theme.basic};
+  borderRadius: "10px;
 `;
 
-const MainHomeContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-  margin-top: auto;
-  margin-bottom: auto;
-  height: 100%;
-  gap: 1rem;
-`;
-
-export { StyledHR, MainHomeContainer };
+export { StyledHR };

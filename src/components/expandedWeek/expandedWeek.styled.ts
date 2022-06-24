@@ -4,14 +4,17 @@ const RowCard = styled.div`
   display: flex;
   flex-wrap: wrap;
   width: 90%;
-  border: 1px solid ${({ theme }) => theme.basic};
+  border: 2px solid ${({ theme }) => theme.basic};
   padding: 15px 40px;
   border-radius: 15px;
   transition: all 0.5s ease-out;
-  box-shadow: 2px 2px 0 4px ${({ theme }) => theme.basic};
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+
+  :hover {
+    box-shadow: 2px 2px 0 4px ${({ theme }) => theme.basic};
+  }
 `;
 
 const TitleDiv = styled.div`

@@ -107,7 +107,7 @@ const ExpandedWeek = () => {
     <>
       {days.map((day) => {
         return (
-          <RowCard>
+          <RowCard key={day.day}>
             <TitleDiv>
               <ColumnContainer type={getTypeColor(day.type)}>
                 <Typography

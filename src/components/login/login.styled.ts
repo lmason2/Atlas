@@ -5,7 +5,7 @@ display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 border: 1px solid ${({ theme }) => theme.text}};
-padding: 15px;
+padding: 15px 40px;
 border-radius: 15px;
 transition: all 0.5s ease-out;
 box-shadow: 2px 2px 0 4px ${({ theme }) => theme.text}};

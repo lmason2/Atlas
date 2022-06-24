@@ -5,4 +5,16 @@ const StyledHR = styled.hr<{ expanded: boolean }>`
   transition: all 0.25s linear;
 `;
 
-export { StyledHR };
+const MainHomeContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 100%;
+  gap: 1rem;
+`;
+
+export { StyledHR, MainHomeContainer };
